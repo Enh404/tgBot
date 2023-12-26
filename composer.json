@@ -1,0 +1,6 @@
+{
+    "name": "sweetman/tg-bot",
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.13"
+    }
+}
