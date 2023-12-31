@@ -1,6 +1,14 @@
 {
     "name": "sweetman/tg-bot",
     "require": {
-        "irazasyed/telegram-bot-sdk": "^3.13"
+        "ext-pdo": "*",
+        "irazasyed/telegram-bot-sdk": "^3.13",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShoppingList\\": "src/ShoppingList/src/",
+            "General\\": "src/General/src/"
+        }
     }
 }
